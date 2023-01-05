@@ -1,6 +1,6 @@
 
 header {
-    background-color: #333;
+    background-color: rgb(15, 149, 238);
     color: #fff;
     display: flex;
     justify-content:space-between;
@@ -10,14 +10,19 @@ header {
     }
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     }
 
 .intitulé {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(15,149,238)
+    
 }
 
 .liste {
@@ -26,3 +31,12 @@ body {
     list-style: none;
     grid-template-columns:1fr 1fr; /*Two columns same size */
       }
+
+img {
+    width: 500px;
+    border: 2px solid rgb(15, 149, 238);
+    border-radius: 5px;
+    align-items: left;
+    margin-right: 10px;
+      }
+      
