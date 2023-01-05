@@ -16,13 +16,13 @@ body {
 
 .intitulé {
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: space-around;
-  }
+}
 
 .liste {
-        display: flex;
-        align-items: right;
-        justify-content: space-around;
-        flex-basis: 50%;
+    display: grid;
+    align-items: center;
+    list-style: none;
+    grid-template-columns:1fr 1fr; /*Two columns same size */
       }
