@@ -1,19 +1,28 @@
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+    }
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
+    }
+
+.intitulé {
     display: flex;
-    flex-direction: column;
-    align;
+    align-items: right;
+    justify-content: space-around;
   }
-  .intitulé {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
+
+.liste {
+        display: flex;
+        align-items: right;
+        justify-content: space-around;
+        flex-basis: 50%;
+      }
