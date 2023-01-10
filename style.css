@@ -33,7 +33,7 @@ body {
       }
 
 img {
-    width: 500px;
+    height: 100px;
     border: 2px solid rgb(15, 149, 238);
     border-radius: 5px;
     align-items: left;
