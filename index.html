@@ -17,7 +17,7 @@
     <!-- "expand sm" permet faire disparaitre nav bar lorsque sa largeur deviendra trop petite-->
     <!-- "light" rend la couleur grise dans bottstrap-->
     <!-- "fixed-top"permet de faire rester la nav bar en haut-->
-    <nav class="nav.navbar-expand-sm navbar-light fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
         <!--"collapse" permet d'enrouler tous les elements-->
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
@@ -25,7 +25,7 @@
                     <a href="#" class="nav-link active">Faustine Michel</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#language" class="nav-link">Languages & Formation</a>
+                    <a href="#language" class="nav-link">Langages & Formations</a>
                 </li>
                 <li class="nav-item">
                     <a href="#portfolio" class="nav-link">Portfolio</a>
@@ -44,12 +44,26 @@
         <div class="container">
             <div class="row presentation">
                 <div class="col-6.col-md-3 infos">
-                    <h5></h5>
+                    <h5><i class="fa fa-user"></i> 29 ans</h5>
+                    <h5><i class="fa fa-compass"></i> Strasbourg</h5>
+                    <h5><i class="fa fa-phone"></i> 06 65 05 09 99</h5>
                 </div>
-            </div>        
+                <!-- col-md-6 permet de definir que lorsque l'ecran est medium, la div s'affiche"-->
+                <!--d-none la div n'apparait pas. En ajoutant d-md-block, la div s'affiche à partir de md et il apparaitra en col-md-6-->
+                <!-- "span" permet de definir où js va injecter le texte-->
+                <div class="d-none d-md-block col-md-6"><span class="typed"></span>
+                </div>
+                <div class="col-6 col-md-3 photo">
+                    <img src="./media/Photocv.jpg" alt="Photo-Candidat">
+                </div>
+            </div> 
+            
+            <div class="button">
+                <a href="./media/Faustine Michel CV.pdf" target="_blank">CV en PDF</a>
+            </div>
         </div>
     </div>
-</header>
+    </header>
 
 
     <script src="./assets/js/jquery.min.js" type="text/javascript"></script>
