@@ -32,7 +32,7 @@ li{
 }
 header{
     text-align: center;
-    height: 300vh;
+    height: 100vh;
     background: url(media/header.jpg) no-repeat fixed 50% 50%;
     background-size:cover;
 }
@@ -93,4 +93,16 @@ header .button:hover a {
     color: #e2dedb;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
+}
+
+/* ************************ LANGUES ************************* */
+
+#langues {
+    padding: 80px 80px 80px 50px;
+    margin: 20px 0 0 6%;
+    width:47%;
+    max-width:640px;
+    background: #3f4dd1;
+    background: linear-gradient(90deg,#3f4dd1 0%, #4b97e4 20%, #31a4c3 40%, transparent 99%);
+    clip-path: polygon(26% 47%, 99% 46%, 75% 100%, 0% 100%);
 }
