@@ -91,15 +91,52 @@ header .button:hover a {
     text-decoration: none;
 }
 
-/* ************************ LANGAGES ************************* */
+/* ************************ LANGUES *************** polygon(32% 0, 100% 0, 100% 55%, 0 56%);********** */
 
-#langages {
+#langues {
     padding: 80px 80px 80px 50px;
-    margin: 20px 0 0 6%;
+    /* margin: 20px 0 0 6%; */
     height: 620px;
     width:47%;
     max-width:640px;
     background: linear-gradient(90deg,#3f4dd1 0%, #4b97e4 20%, #31a4c3 40%, transparent 99%);
-    clip-path: polygon(10% 12%, 100% 12%, 87% 40%, 0 42%);}
+    clip-path: polygon(0% 12%, 100% 12%, 87% 48%, 0 50%);}
+
+#langues .bar{
+    padding: 10px 0 4px 0;
+    letter-spacing: 0,1em;
+}
+
+/* ************** LANGUAGES ****************************** */
+
+#languages{
+    position: relative;
+    float:right;
+    margin-top:-200px;
+    margin-right: 20%;
+    padding: 10px -50px 60px 0px;
+    width:45%;
+    max-width:660px;
+    background: linear-gradient(90deg,#3f4dd1 0%, #4b97e4 20%, #31a4c3 40%, transparent 99%);
+    clip-path: polygon(12% 0, 100% 0, 100% 55%, 0 56%);
+
+}
+
+#languages .h3 {
+    margin-left: 70px;
+    padding-left:  20px;
+
+}
+.table{
+    box-sizing: border-box;
+    margin-left: 80px;
+}
+ .column{
+    padding: 20px 80px 80px 30px;
+    margin-left: 70px;
+    float: left;
+    padding-left: 1px;
+    padding-right: 1px;
+}
 
 
