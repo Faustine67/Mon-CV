@@ -28,7 +28,7 @@ li{
 }
 header{
     text-align: center;
-    height: 100vh;
+    height: 80vh;
     background: url(media/header.jpg) no-repeat fixed 50% 50%;
     background-size:cover;
 }
@@ -122,10 +122,11 @@ header .button:hover a {
 
 }
 
-#languages .h3 {
+#languages h3 {
+    position: relative;
     margin-left: 70px;
     padding-left:  20px;
-
+    left: 10px;
 }
 .table{
     box-sizing: border-box;
