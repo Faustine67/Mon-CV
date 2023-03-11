@@ -139,4 +139,68 @@ header .button:hover a {
     padding-right: 1px;
 }
 
+/* ******************** PARCOURS ********************* */
+#parcours{
+    max-width:800px;
+    margin:640px auto 180px auto;
+    padding:40px 30px 100px 30px;
+    background: url(./media/fondbleu.jpg) no-repeat fixed 50% 50%;
+    background-size:cover;
+    border-radius: 8px;
+    box-shadow: -1px -1px 8px #283655;
+}
+#parcours h3{
+    font-size:2.5em;
+    padding-bottom:30px;
+}
+#parcours h4{
+    font-size: 1.6em;
+    color:white;
+    margin-left: 20px;
+}
+#parcours h5{
+    font-style: italic;
+    margin-left: 20px;
+    color:rgb(22, 80, 124);
+}
+#parcours ul li{
+    line-height: 1.9em;
+    color:darkblue;
+}
+.timeline{
+    border-top: 3px solid;
+    border-image: linear-gradient(to right,white,rgb(29, 149, 241),darkblue,black);
+    border-image-slice:1;
+    margin:0;
+    padding:40px;
+    position:relative;
+}
 
+/* On appelle le premier element de timeline */
+.timeline:nth-child(1):before{
+     /* raccourci clavier Alt 30 pour faire la pointe de la fleche */ 
+    content: '▲';
+    color:white;
+    position:absolute;
+    top:-10px;
+    left:-9px;
+    box-sizing: content-box !important;
+}
+.timeline:nth-child(1){
+    border-bottom: 3px solid;
+    border-top:none;
+}
+.timeline:nth-child(2){
+    border-top: none;
+}
+/* odd permet de chercher les childs en impair */
+.timeline:nth-child(even){
+    border-right: 3px solid;
+    padding-right: 0;
+}
+/* even permet de chercher les childs en pair */
+
+.timeline:nth-child(odd){
+    border-left: 3px solid;
+    padding-right:0;
+}
